@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C5D0BBC2742307C00FCB4DA /* DownloadCombineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D0BBB2742307C00FCB4DA /* DownloadCombineApp.swift */; };
+		5C5D0BBE2742307C00FCB4DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D0BBD2742307C00FCB4DA /* ContentView.swift */; };
+		5C5D0BC02742308000FCB4DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C5D0BBF2742308000FCB4DA /* Assets.xcassets */; };
+		5C5D0BC32742308000FCB4DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C5D0BC22742308000FCB4DA /* Preview Assets.xcassets */; };
+		5C5D0BCD2742308100FCB4DA /* DownloadCombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D0BCC2742308100FCB4DA /* DownloadCombineTests.swift */; };
+		5C5D0BD72742308100FCB4DA /* DownloadCombineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D0BD62742308100FCB4DA /* DownloadCombineUITests.swift */; };
+		5C5D0BD92742308100FCB4DA /* DownloadCombineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D0BD82742308100FCB4DA /* DownloadCombineUITestsLaunchTests.swift */; };
+		5C5D0BE9274230DD00FCB4DA /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D0BE8274230DD00FCB4DA /* Post.swift */; };
+		5C5D0BEC2742324600FCB4DA /* DownloadWithCombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D0BEB2742324600FCB4DA /* DownloadWithCombineViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C5D0BC92742308100FCB4DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C5D0BB02742307C00FCB4DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C5D0BB72742307C00FCB4DA;
+			remoteInfo = DownloadCombine;
+		};
+		5C5D0BD32742308100FCB4DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C5D0BB02742307C00FCB4DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C5D0BB72742307C00FCB4DA;
+			remoteInfo = DownloadCombine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C5D0BB82742307C00FCB4DA /* DownloadCombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadCombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C5D0BBB2742307C00FCB4DA /* DownloadCombineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadCombineApp.swift; sourceTree = "<group>"; };
+		5C5D0BBD2742307C00FCB4DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5C5D0BBF2742308000FCB4DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C5D0BC22742308000FCB4DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5C5D0BC82742308100FCB4DA /* DownloadCombineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownloadCombineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C5D0BCC2742308100FCB4DA /* DownloadCombineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadCombineTests.swift; sourceTree = "<group>"; };
+		5C5D0BD22742308100FCB4DA /* DownloadCombineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownloadCombineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C5D0BD62742308100FCB4DA /* DownloadCombineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadCombineUITests.swift; sourceTree = "<group>"; };
+		5C5D0BD82742308100FCB4DA /* DownloadCombineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadCombineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C5D0BE8274230DD00FCB4DA /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		5C5D0BEB2742324600FCB4DA /* DownloadWithCombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombineViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C5D0BB52742307C00FCB4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5D0BC52742308100FCB4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5D0BCF2742308100FCB4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C5D0BAF2742307C00FCB4DA = {
+			isa = PBXGroup;
+			children = (
+				5C5D0BBA2742307C00FCB4DA /* DownloadCombine */,
+				5C5D0BCB2742308100FCB4DA /* DownloadCombineTests */,
+				5C5D0BD52742308100FCB4DA /* DownloadCombineUITests */,
+				5C5D0BB92742307C00FCB4DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C5D0BB92742307C00FCB4DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C5D0BB82742307C00FCB4DA /* DownloadCombine.app */,
+				5C5D0BC82742308100FCB4DA /* DownloadCombineTests.xctest */,
+				5C5D0BD22742308100FCB4DA /* DownloadCombineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C5D0BBA2742307C00FCB4DA /* DownloadCombine */ = {
+			isa = PBXGroup;
+			children = (
+				5C5D0BEA2742322F00FCB4DA /* ViewModel */,
+				5C5D0BE7274230D100FCB4DA /* Model */,
+				5C5D0BE6274230C700FCB4DA /* App */,
+				5C5D0BE5274230C000FCB4DA /* View */,
+				5C5D0BBF2742308000FCB4DA /* Assets.xcassets */,
+				5C5D0BC12742308000FCB4DA /* Preview Content */,
+			);
+			path = DownloadCombine;
+			sourceTree = "<group>";
+		};
+		5C5D0BC12742308000FCB4DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5C5D0BC22742308000FCB4DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5C5D0BCB2742308100FCB4DA /* DownloadCombineTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C5D0BCC2742308100FCB4DA /* DownloadCombineTests.swift */,
+			);
+			path = DownloadCombineTests;
+			sourceTree = "<group>";
+		};
+		5C5D0BD52742308100FCB4DA /* DownloadCombineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C5D0BD62742308100FCB4DA /* DownloadCombineUITests.swift */,
+				5C5D0BD82742308100FCB4DA /* DownloadCombineUITestsLaunchTests.swift */,
+			);
+			path = DownloadCombineUITests;
+			sourceTree = "<group>";
+		};
+		5C5D0BE5274230C000FCB4DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C5D0BBD2742307C00FCB4DA /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5C5D0BE6274230C700FCB4DA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5C5D0BBB2742307C00FCB4DA /* DownloadCombineApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5C5D0BE7274230D100FCB4DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C5D0BE8274230DD00FCB4DA /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C5D0BEA2742322F00FCB4DA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5C5D0BEB2742324600FCB4DA /* DownloadWithCombineViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C5D0BB72742307C00FCB4DA /* DownloadCombine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C5D0BDC2742308100FCB4DA /* Build configuration list for PBXNativeTarget "DownloadCombine" */;
+			buildPhases = (
+				5C5D0BB42742307C00FCB4DA /* Sources */,
+				5C5D0BB52742307C00FCB4DA /* Frameworks */,
+				5C5D0BB62742307C00FCB4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DownloadCombine;
+			productName = DownloadCombine;
+			productReference = 5C5D0BB82742307C00FCB4DA /* DownloadCombine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C5D0BC72742308100FCB4DA /* DownloadCombineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C5D0BDF2742308100FCB4DA /* Build configuration list for PBXNativeTarget "DownloadCombineTests" */;
+			buildPhases = (
+				5C5D0BC42742308100FCB4DA /* Sources */,
+				5C5D0BC52742308100FCB4DA /* Frameworks */,
+				5C5D0BC62742308100FCB4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C5D0BCA2742308100FCB4DA /* PBXTargetDependency */,
+			);
+			name = DownloadCombineTests;
+			productName = DownloadCombineTests;
+			productReference = 5C5D0BC82742308100FCB4DA /* DownloadCombineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C5D0BD12742308100FCB4DA /* DownloadCombineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C5D0BE22742308100FCB4DA /* Build configuration list for PBXNativeTarget "DownloadCombineUITests" */;
+			buildPhases = (
+				5C5D0BCE2742308100FCB4DA /* Sources */,
+				5C5D0BCF2742308100FCB4DA /* Frameworks */,
+				5C5D0BD02742308100FCB4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C5D0BD42742308100FCB4DA /* PBXTargetDependency */,
+			);
+			name = DownloadCombineUITests;
+			productName = DownloadCombineUITests;
+			productReference = 5C5D0BD22742308100FCB4DA /* DownloadCombineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C5D0BB02742307C00FCB4DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					5C5D0BB72742307C00FCB4DA = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					5C5D0BC72742308100FCB4DA = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 5C5D0BB72742307C00FCB4DA;
+					};
+					5C5D0BD12742308100FCB4DA = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 5C5D0BB72742307C00FCB4DA;
+					};
+				};
+			};
+			buildConfigurationList = 5C5D0BB32742307C00FCB4DA /* Build configuration list for PBXProject "DownloadCombine" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C5D0BAF2742307C00FCB4DA;
+			productRefGroup = 5C5D0BB92742307C00FCB4DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C5D0BB72742307C00FCB4DA /* DownloadCombine */,
+				5C5D0BC72742308100FCB4DA /* DownloadCombineTests */,
+				5C5D0BD12742308100FCB4DA /* DownloadCombineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C5D0BB62742307C00FCB4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5D0BC32742308000FCB4DA /* Preview Assets.xcassets in Resources */,
+				5C5D0BC02742308000FCB4DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5D0BC62742308100FCB4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5D0BD02742308100FCB4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C5D0BB42742307C00FCB4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5D0BE9274230DD00FCB4DA /* Post.swift in Sources */,
+				5C5D0BBE2742307C00FCB4DA /* ContentView.swift in Sources */,
+				5C5D0BBC2742307C00FCB4DA /* DownloadCombineApp.swift in Sources */,
+				5C5D0BEC2742324600FCB4DA /* DownloadWithCombineViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5D0BC42742308100FCB4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5D0BCD2742308100FCB4DA /* DownloadCombineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5D0BCE2742308100FCB4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5D0BD92742308100FCB4DA /* DownloadCombineUITestsLaunchTests.swift in Sources */,
+				5C5D0BD72742308100FCB4DA /* DownloadCombineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C5D0BCA2742308100FCB4DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C5D0BB72742307C00FCB4DA /* DownloadCombine */;
+			targetProxy = 5C5D0BC92742308100FCB4DA /* PBXContainerItemProxy */;
+		};
+		5C5D0BD42742308100FCB4DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C5D0BB72742307C00FCB4DA /* DownloadCombine */;
+			targetProxy = 5C5D0BD32742308100FCB4DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5C5D0BDA2742308100FCB4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C5D0BDB2742308100FCB4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C5D0BDD2742308100FCB4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DownloadCombine/Preview Content\"";
+				DEVELOPMENT_TEAM = FB62NCYJK2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moe.playgrounds.DownloadCombine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C5D0BDE2742308100FCB4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DownloadCombine/Preview Content\"";
+				DEVELOPMENT_TEAM = FB62NCYJK2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moe.playgrounds.DownloadCombine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C5D0BE02742308100FCB4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FB62NCYJK2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moe.playgrounds.DownloadCombineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DownloadCombine.app/DownloadCombine";
+			};
+			name = Debug;
+		};
+		5C5D0BE12742308100FCB4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FB62NCYJK2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moe.playgrounds.DownloadCombineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DownloadCombine.app/DownloadCombine";
+			};
+			name = Release;
+		};
+		5C5D0BE32742308100FCB4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FB62NCYJK2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moe.playgrounds.DownloadCombineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DownloadCombine;
+			};
+			name = Debug;
+		};
+		5C5D0BE42742308100FCB4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FB62NCYJK2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moe.playgrounds.DownloadCombineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DownloadCombine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C5D0BB32742307C00FCB4DA /* Build configuration list for PBXProject "DownloadCombine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C5D0BDA2742308100FCB4DA /* Debug */,
+				5C5D0BDB2742308100FCB4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C5D0BDC2742308100FCB4DA /* Build configuration list for PBXNativeTarget "DownloadCombine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C5D0BDD2742308100FCB4DA /* Debug */,
+				5C5D0BDE2742308100FCB4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C5D0BDF2742308100FCB4DA /* Build configuration list for PBXNativeTarget "DownloadCombineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C5D0BE02742308100FCB4DA /* Debug */,
+				5C5D0BE12742308100FCB4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C5D0BE22742308100FCB4DA /* Build configuration list for PBXNativeTarget "DownloadCombineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C5D0BE32742308100FCB4DA /* Debug */,
+				5C5D0BE42742308100FCB4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C5D0BB02742307C00FCB4DA /* Project object */;
+}
